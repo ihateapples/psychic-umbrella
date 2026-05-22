@@ -32,7 +32,7 @@ copy and save both the encrypted key and the seed.
    npm install express helmet socket.io jsonwebtoken dotenv
    ```
 
-2. edit the `.env`
+2. rename `example.env` to `.env` and edit it to fit your configuration.
    ```env
    JWT_SECRET=change-me
    C2_PATH=/api/v3/sync
@@ -62,6 +62,6 @@ copy and save both the encrypted key and the seed.
 
 ---
 
-## debug Tool
+## debug tool
 
 run `debug.py` to verify your keys and bot configuration. (edit it to include your encrypted seed and key.)
